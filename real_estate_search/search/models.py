@@ -46,7 +46,6 @@ class PrimaryFlat(models.Model):
         long = "long"
 
     class PrimaryFlatRisks(models.TextChoices):
-        risk = "risk"
         riskey = "riskey"
         good = "good"
         bad = "bad"
